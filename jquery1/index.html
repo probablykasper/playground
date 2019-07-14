@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="main.css">
+    <title>jQuery 1 | KH Playground</title>
+</head>
+<body>
+    <div id="left">
+        <p class="para2">This section is the left content area. </p>
+    </div>
+    <div id="center">
+        <p>This area will contain the center content area.</p>
+    </div>
+    <div id="right">
+        <p>This area will contain the <b>right content</b> area.
+        </p>
+    </div>
+    <div id="test">
+    <button> Hit button to change something </button>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+
+    $(document).ready(function() {
+
+    $("button").click(function() {
+
+    //$("p:has(b)").hide();
+    //$("#left").css({ "border" : "solid 2px red" , "color" : "blue" })
+    //$("p").html("<p>Tabbey Cats</p>");
+    //$("#left").css("color", "red").css("border", "solid 2px blue").fadeOut("20000");
+
+    $("#right").before("<h2>HERES SOME TEXT BRO");
+
+    });
+    });
+
+</script>
+</body>
+</html>

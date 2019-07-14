@@ -1,0 +1,18 @@
+body {
+	font-family: 'Roboto';
+}
+
+main {
+	margin: auto;
+	width: 1000px;
+}
+
+.box {
+	background-color: #FF9100;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin: auto;
+}
